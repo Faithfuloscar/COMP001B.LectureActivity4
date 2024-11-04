@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(85, 85, 85);
+}
+h1{
+    text-align: center;
+    width: 500px;
+    color: rgb(255, 159, 159);
+    font-style: italic;
+    font-size: 50px;
+    display: flex;
+    float: left;
+    padding-left: 15px;
+}
+nav{
+    flex: 1;
+    float: right;
+    background-color: rgb(255, 159, 159);
+    border: 2px solid black ;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+nav a{
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a :hover{
+    color: black;
+}
+.Heart{
+    color:rgb(255, 159, 159);
+    font-size: 100px;
+    text-align: center;
+    display: inline-flex;
+    padding-left: 10px;
+    border: 10px;
+    border-color: black;
+}
+p{
+    color: whitesmoke;
+    font-style: oblique;
+    text-align: left;
+    padding-left: 15px;
+    display: block;
+    width: 475px;
+    margin-left: 30px;
+    
+}
+.join-now{
+    background-color: black;
+    color: rgb(255, 159, 159);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.join-now :hover{
+    background-color: rgb(85, 85, 85);
+}
+img{
+    width: 75%;
+    height: auto;
+    display: block;
+    border: 2px solid black;
+    border-radius: 8px 12px;
+    margin-left: 150px;
+}
+h2{
+    padding-left: 150px;
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+    font-style: oblique;
+    text-align: left;
+    padding-left: 15px;
+    display: block;
+    width: auto;
+    margin-left: 30px;
+}
